@@ -1,6 +1,6 @@
 import { useState } from "react";
 export default function Counter() {
-  const [Count, setCount] = useState(0);
+  const [Count, setCount] = useState<number>(0);
   return (
     <>
       // order one phone

@@ -1,4 +1,5 @@
 interface ChaiCardProp {
+  
   name: string;
   price: number;
   isSpecial?: boolean;
@@ -13,7 +14,7 @@ export default function ChaiCard({
     <article>
       <h2>
         {name}
-        {isSpecial && <span>⭐😊⭐</span>}
+        {isSpecial && <span>⭐⭐</span>}
       </h2>
       <p>{price}</p>
     </article>
